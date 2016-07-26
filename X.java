@@ -15,7 +15,7 @@ class X
         }
         else
         {
-            System.out.print("This is not a Vowel");
+            System.out.print("This is a consonant");
         }
     }
 }
