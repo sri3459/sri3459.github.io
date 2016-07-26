@@ -6,20 +6,13 @@ public static void main(String[] args)
 Scanner sc=new Scanner(System.in);
 System.out.println("enter a");
 int a=sc.nextInt();
-if(a==0)
+if(a%2==0)
 {
-System.out.println("number is zero");
+System.out.println("number is even");
 }
 else
 {
-if(a>0)
-{
-System.out.println("number is positive");
-}
-else
-{
-System.out.println("number is negative");
-}
+System.out.println("number is odd");
 }
 }
 }
